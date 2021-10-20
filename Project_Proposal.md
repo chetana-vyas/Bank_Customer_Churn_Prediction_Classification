@@ -18,6 +18,7 @@ Accurately predict the Ad Click Through Rate
 click: 0/1 for non-click/click
 
 ### Features
+
 id: ad identifier
 hour: format is YYMMDDHH, so 14091123 means 23:00 on Sept. 11, 2014 UTC.
 C1 -- anonymized categorical variable
