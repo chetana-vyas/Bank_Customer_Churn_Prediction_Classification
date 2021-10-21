@@ -1,14 +1,13 @@
 # Project Proposal
 
-## Customer Churn Rate Prediction
+## Predicting Churn for Bank Customers
 
 ## Purpose:
-Aimless browsing by users is a common phenomenon especially on e-commerce websites/apps, video and music streaming platforms, social media websites.
-CTR is important especially when tech giants' make their most revenue by ads. 
-I want to build a classification model to predict the CTR 
+Customer acquisition is an expensive process, requires huge effort than retention. Most giants in tech / non-tech sector is working on a crucial goal of reducing customer churn.
+I want to build a classification model to predict the Customer Churn rate for Bank Customers
 
 ## Goal:
-Accurately predict the Ad Click Through Rate
+Accurately predict the Churn rate for Bank Customers
 
 ## Data Description:
 
