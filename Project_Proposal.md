@@ -1,6 +1,6 @@
 # Project Proposal
 
-## Click Through Rate Prediction
+## Customer Churn Rate Prediction
 
 ## Purpose:
 Aimless browsing by users is a common phenomenon especially on e-commerce websites/apps, video and music streaming platforms, social media websites.
@@ -12,29 +12,23 @@ Accurately predict the Ad Click Through Rate
 
 ## Data Description:
 
-•  [kaggle dataset](https://www.kaggle.com/c/avazu-ctr-prediction/data?select=train.gz)
+•  [kaggle dataset] (https://www.kaggle.com/kmalit/bank-customer-churn-prediction/data)
 
 ### Target
-click: 0/1 for non-click/click
+Exited : 0/1 for non-exited/exited
 
 ### Features
 
-* id: ad identifier 
-* hour: format is YYMMDDHH, so 14091123 means 23:00 on Sept. 11, 2014 UTC.
-* C1 -- anonymized categorical variable
-* banner_pos
-* site_id
-* site_domain
-* site_category
-* app_id
-* app_domain
-* app_category
-* device_id
-* device_ip
-* device_model
-* device_type
-* device_conn_type
-* C14-C21 -- anonymized categorical variables
+* CreditScore
+* Geography	
+* Gender
+* Age
+* Tenure
+* Balance
+* Number Of Products
+* Has Credit Card
+* Is Active Member
+* Estimated Salary
 
 ## Algorithms:
 I will use Classification algorithms like Logistic Regression, Naive Bayes, etc; improve the baseline model and tune the hyperparameters
@@ -48,4 +42,4 @@ Python packages for building the model –
 4.	matplotlib and seaborn – data visualization
 	
 ## MVP Goal:
-Show the CTR baseline model with performance metrics
+Show the Consumer Churn rate prediction baseline model with performance metrics
