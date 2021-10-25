@@ -1,6 +1,4 @@
-# Project Proposal
-
-## Predicting Churn for Bank Customers
+# Predicting Churn for Bank Customers
 
 ## Project:
 Customer acquisition is an expensive process, requires huge effort than retention. Most giants in tech / non-tech sector is working on a crucial goal of reducing customer churn.
