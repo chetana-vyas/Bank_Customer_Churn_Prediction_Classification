@@ -10,9 +10,9 @@ I have performed cross validation using different models - KNN, Logistic Regress
 
 I have fit the model using Random Forest and calculated the metrics - Precision and Recall.
 I am more interested in Recall. I don't mind targeting a few customers that might not churn, it will just make them happier! 
-But I don't want to miss out on customers who will churn, i.e.I don't want False Negatives.
+But I don't want to miss out on customers who will churn, i.e.False Negatives.
+
+I will work on adjusting the threshold to get a good recall score without affecting the precision; also use Model Boosting.
 
 *  ![Model Evaluation](https://github.com/chetana-vyas/Classification/blob/main/Images/Classification_Scores.PNG)
 *  ![ROC Curve](https://github.com/chetana-vyas/Classification/blob/main/Images/ROC_Curve.PNG)
-
-I will work on adjusting the threshold to get a good recall score without affecting the precision; also use Model Boosting.
