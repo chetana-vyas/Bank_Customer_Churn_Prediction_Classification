@@ -4,7 +4,7 @@
 
 ## Purpose:
 Customer acquisition is an expensive process, requires huge effort than retention. Most giants in tech / non-tech sector is working on a crucial goal of reducing customer churn.
-I want to build a classification model to predict the Customer Churn rate for Bank Customers
+I want to build a binary classification model to predict the Customer Churn rate for Bank Customers
 
 ## Goal:
 Accurately predict the Churn rate for Bank Customers
@@ -30,15 +30,29 @@ Exited : 0/1 for non-exited/exited
 * Estimated Salary
 
 ## Algorithms:
-I will use Classification algorithms like Logistic Regression, Naive Bayes, etc; improve the baseline model and tune the hyperparameters
+Classification Algorithms used - 
+* Logistic Regression
+* KNN K Nearest Neighbours
+* Decision Tree Classifier
+* Random Forest
+* XGBoost - Extreme Gradient Boosting
 
-## Tools:
+Improve the baseline model and tune the hyperparameters
 
-Python packages for building the model –
-1.	Scikit-learn – build Classification model
-2.	Pandas – manipulating and working on data frames
-3.	NumPy – working with arrays
-4.	matplotlib and seaborn – data visualization
+## Feature Importance:
+
+![](https://github.com/chetana-vyas/)
+
+## Performance Metric:
+Really care about minimizing False Negatives to not miss out of Customers who might churn without terribly affecting Precision. Picking F_Beta score and Recall metric to evaluate the model
+
+## Logistic Regression Performance Scores:
+* 	F-Beta Score = 0.80 with Beta = 2.5
+* 	Recall = 0.21
+
+## XGBoost - Extreme Gradient Boosting Performance Scores:
+* 	F-Beta Score = 0.89 with Beta = 2.5
+* 	Recall = 0.54
 	
-## MVP Goal:
-Show the Consumer Churn rate prediction baseline model with performance metrics
+## Recommendations:
+Overall, our prediction model should act as an early warning system and explanatory tool.Help a bank in refining its marketing efforts to target customers with more relevant campaigns, offers, etc. Churn prevention allows companies to develop loyalty programs and retention campaigns to reduce Customer Churn.
