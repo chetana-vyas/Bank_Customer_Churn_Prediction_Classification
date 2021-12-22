@@ -7,26 +7,6 @@ I want to build a binary classification model to predict the Customer Churn rate
 ## Goal:
 Accurately predict the Churn rate for Bank Customers
 
-## Data Description:
-
-•  [kaggle dataset] (https://www.kaggle.com/kmalit/bank-customer-churn-prediction/data)
-
-### Target
-Exited : 0/1 for non-exited/exited
-
-### Features
-
-* CreditScore
-* Geography	
-* Gender
-* Age
-* Tenure
-* Balance
-* Number Of Products
-* Has Credit Card
-* Is Active Member
-* Estimated Salary
-
 ## Algorithms:
 Classification Algorithms used - 
 * Logistic Regression
